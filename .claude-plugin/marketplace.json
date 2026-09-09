@@ -1,0 +1,11 @@
+{
+  "name": "tg-rcore-tutorial",
+  "owner": { "name": "tg-rCore Tutorial" },
+  "plugins": [
+    {
+      "name": "tg-rcore-session-archive",
+      "source": "./plugins/tg-rcore-session-archive",
+      "description": "Save coding-agent conversations as local JSONL in the project."
+    }
+  ]
+}

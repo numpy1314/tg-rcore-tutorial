@@ -4,6 +4,8 @@
 
 课程过程记录：在仓库根目录运行 `python3 course.py`，打开实验与实时日志。安装要求、日志位置和 Codex 入口见 [实验过程记录说明](docs/course-recording.md)。
 
+AI过程记录：在仓库根目录运行 `./scripts/setup-agent-plugins.sh auto`，也可具体选择 `codex`、`claude`、`cursor`、`vscode`。会话记录保存到 `.ai/agent-sessions/<agent>/`，文件名包含日期时间，格式为 JSONL。请同学们不要改动或删除这些记录，提交时会检查这些记录作为考核参考。详细说明见 [AI 会话归档说明](docs/agent-session-archive.md)。
+
 [![Crates.io](https://img.shields.io/crates/v/tg-rcore-tutorial.svg)](https://crates.io/crates/tg-rcore-tutorial) [![Docs.rs](https://docs.rs/tg-rcore-tutorial/badge.svg)](https://docs.rs/tg-rcore-tutorial) [![License](https://img.shields.io/crates/l/tg-rcore-tutorial.svg)](LICENSE)
 
 ## 0. 简介

@@ -8,6 +8,10 @@ target/
 # IDE and editor files
 .idea/
 .vscode/
+!/.vscode/
+/.vscode/*
+!/.vscode/session-archive.example.json
+!/.vscode/copilot-hooks.example.json
 *.swp
 *.swo
 *~
@@ -28,3 +32,14 @@ Cargo.lock
 # bundle/submodules.tar.gz
 # Extracted workspace (optional - uncomment if you want to ignore extracted content)
 # workspace-full/
+
+# Per-user session archive policies and installed editor hooks.
+.codex/session-archive.json
+.claude/session-archive.json
+.claude/settings.local.json
+.cursor/session-archive.json
+.cursor/hooks.json
+.cursor/tg-rcore-hooks/
+**/.ai/agent-sessions/
+__pycache__/
+*.py[cod]
