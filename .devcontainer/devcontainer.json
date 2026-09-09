@@ -1,10 +1,13 @@
 {
   "name": "tg-rcore-tutorial",
-  "image": "docker.cnb.cool/learningos/rcore-single",
+  "build": { "dockerfile": "Dockerfile.course", "context": ".." },
+  "postCreateCommand": "sh .course-monitor/setup.sh",
+  "postAttachCommand": "sh .course-monitor/attach.sh",
 
   "customizations": {
     "vscode": {
       "settings": {
+        "terminal.integrated.shellIntegration.enabled": true,
         "editor.formatOnSave": true,
         "rust-analyzer.cargo.target": "riscv64gc-unknown-none-elf",
         "rust-analyzer.checkOnSave.allTargets": false

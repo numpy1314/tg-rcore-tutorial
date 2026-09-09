@@ -1,0 +1,9 @@
+.git
+.ai/events
+.ai/ide
+.ai/submissions
+.course-monitor/node
+.course-monitor/rewind-ide-*.vsix
+**/node_modules
+**/target
+sessions
