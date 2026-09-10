@@ -78,7 +78,7 @@ class Progress:
         self.info("归档位置：.ai/agent-sessions/<agent>/<日期时间>_<session-id>.jsonl")
         for agent in agents:
             hint = {
-                "codex": "Codex：从本项目打开新会话，首次使用请在 /hooks 审阅并信任 hooks。",
+                "codex": "Codex：从本项目打开新会话，在 /hooks 确认 Stop、SessionEnd 均已启用并信任；更新后可能需要重新审阅。",
                 "claude": "Claude Code：从本项目重新启动，或在已有会话执行 /reload-plugins。",
                 "cursor": "Cursor：打开本项目并重新加载窗口，在 Output → Hooks 查看执行情况。",
                 "vscode": "VS Code Copilot：打开本项目并重新加载窗口，在 Output → Copilot Chat Hooks 查看执行情况。",

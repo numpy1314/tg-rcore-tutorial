@@ -1,6 +1,6 @@
 {
   "name": "tg-rcore-session-archive",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260910151952",
   "description": "Save coding-agent conversations as local JSONL in the project.",
   "author": {
     "name": "tg-rCore Tutorial"
